@@ -64,7 +64,4 @@
 
 ### 2. 后端启动 (Backend Setup)
 
-1. 克隆本项目到本地：
-   ```bash
-   git clone [你的 GitHub 仓库地址]
-   ```
+``

@@ -1,3 +1,9 @@
+-- 创建数据库 (如果不存在的话)
+CREATE DATABASE IF NOT EXISTS `my_blog` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+
+-- 切换到该数据库
+USE `my_blog`;
+
 create table articles
 (
     id          int auto_increment comment '文章ID'
@@ -26,5 +32,3 @@ create table users
         unique (username)
 )
     comment '用户表';
-
-
